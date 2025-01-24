@@ -1,4 +1,4 @@
-
+package ca.bcit.comp2522.lab3;
 
 
 
@@ -57,7 +57,7 @@ abstract class IDevice
     @Override
     public int hashCode()
     {
-        return
+        return 0;
     }
 
 

@@ -2,7 +2,7 @@ package ca.bcit.comp2522.lab3;
 
 /**
  * Represents the IPhone16, which uniquely tracks
- * it's storage and the presences of a high resulution camera.
+ * it's storage and the presences of a high resolution camera.
  *
  * @author Ryan Chu
  * @author Joseph Louwerse
@@ -23,7 +23,7 @@ final class IPhone16
      *
      * @param planRemainingMinutes the phone plan remaining as a double
      * @param carrier the carrier as a String
-     * @param highResCamera if the phone has a high resulustion camera
+     * @param highResCamera if the phone has a high resolution camera
      * @param memoryGB the memory in GB as an int
      */
     IPhone16(final double planRemainingMinutes,
@@ -50,7 +50,7 @@ final class IPhone16
         {
             throw new IllegalArgumentException("Memory GB must be at least " + MIN_MEMORY_GB);
         }
-        ;
+
     }
 
     /**
@@ -58,7 +58,7 @@ final class IPhone16
      *
      * @return if the device has a high-resolution camera
      */
-    protected final boolean hasHighResCamera()
+    boolean hasHighResCamera()
     {
         return highResCamera;
     }
@@ -68,7 +68,7 @@ final class IPhone16
      *
      * @return the memory capacity in GB.
      */
-    protected final int getMemoryGB()
+    int getMemoryGB()
     {
         return memoryGB;
     }
@@ -78,7 +78,7 @@ final class IPhone16
      *
      * @param memoryGB the memory capacity in GB.
      */
-    protected final void setMemoryGB(int memoryGB)
+    void setMemoryGB(int memoryGB)
     {
         validateMemoryGB(memoryGB);
         this.memoryGB = memoryGB;
@@ -89,7 +89,7 @@ final class IPhone16
      * @return the details of the phone as a String
      */
     @Override
-    public final String toString()
+    public String toString()
     {
         StringBuilder details;
         details = new StringBuilder();

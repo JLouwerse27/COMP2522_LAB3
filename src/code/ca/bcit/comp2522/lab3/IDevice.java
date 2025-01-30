@@ -14,7 +14,6 @@ abstract class IDevice
 
     private final String purpose;
 
-
     /**
      * Constructs an {@code IDevice} with the specified purpose.
      *

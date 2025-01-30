@@ -62,7 +62,7 @@ class IPhone extends IDevice
      *
      * @return the remaining plan minutes.
      */
-    public double getPlanRemainingMinutes()
+    public final double getPlanRemainingMinutes()
     {
         return planRemainingMinutes;
     }
@@ -72,7 +72,7 @@ class IPhone extends IDevice
      *
      * @param planRemainingMinutes the new remaining minutes.
      */
-    public void setPlanRemainingMinutes(double planRemainingMinutes)
+    public final void setPlanRemainingMinutes(double planRemainingMinutes)
     {
         this.planRemainingMinutes = planRemainingMinutes;
     }
@@ -82,7 +82,7 @@ class IPhone extends IDevice
      *
      * @return the carrier name.
      */
-    public String getCarrier()
+    public final String getCarrier()
     {
         return carrier;
     }

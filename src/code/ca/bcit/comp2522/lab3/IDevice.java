@@ -1,6 +1,5 @@
 package ca.bcit.comp2522.lab3;
 
-
 /**
  * Parent of any device in the apple I line of products.
  * Contains methods to get and print details.

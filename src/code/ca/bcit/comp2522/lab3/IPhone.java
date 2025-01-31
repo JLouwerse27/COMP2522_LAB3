@@ -1,7 +1,7 @@
 package ca.bcit.comp2522.lab3;
 
 /**
- * Represents any IPhone, which tracking the carrier and remaining phone plan.
+ * Represents any IPhone, which tracks the carrier and remaining phone plan.
  *
  * @author Ryan Chu
  * @author Joseph Louwerse

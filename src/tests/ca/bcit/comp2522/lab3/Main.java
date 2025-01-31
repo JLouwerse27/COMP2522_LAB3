@@ -5,66 +5,66 @@ public class Main
     public static void main(final String[] args)
     {
         // Create IPod objects
-//        final IPod ipod1;
-//        final IPod ipod2;
-//        final IPod ipod3;
-//        ipod1 = new IPod(300,
-//                         80.0); // 300 songs, max volume 80.0 dB
-//        ipod2 = new IPod(400,
-//                         85.0); // 400 songs, max volume 85.0 dB
-//        ipod3 = new IPod(300,
-//                         70.0); // 300 songs, max volume 70.0 dB
-//
-//        // Test equality and inequality for IPod
-//        System.out.println("IPod Equality Test:");
-//        if(!ipod1.equals(ipod2))
-//        {
-//            System.out.println("CORRECT: ipod1 is not equal to ipod2");
-//        }
-//        else
-//        {
-//            System.out.println("INCORRECT: ipod1 should not be equal to ipod2");
-//        }
-//        if(ipod1.equals(ipod3))
-//        {
-//            System.out.println("CORRECT: ipod1 is equal to ipod3");
-//        }
-//        else
-//        {
-//            System.out.println("INCORRECT: ipod1 should be equal to ipod3");
-//        }
-//        System.out.println();
-//
-//        // Create IPad objects
-//        final IPad ipad1;
-//        final IPad ipad2;
-//        final IPad ipad3;
-//        ipad1 = new IPad(true,
-//                         "iPadOS 15"); // Has case, OS version iPadOS 15
-//        ipad2 = new IPad(false,
-//                         "iPadOS 14"); // No case, OS version iPadOS 14
-//        ipad3 = new IPad(true,
-//                         "iPadOS 15"); // Has case, OS version iPadOS 15
-//
-//        // Test equality and inequality for IPad
-//        System.out.println("IPad Equality Test:");
-//        if(!ipad1.equals(ipad2))
-//        {
-//            System.out.println("CORRECT: ipad1 is not equal to ipad2");
-//        }
-//        else
-//        {
-//            System.out.println("INCORRECT: ipad1 should not be equal to ipad2");
-//        }
-//        if(ipad1.equals(ipad3))
-//        {
-//            System.out.println("CORRECT: ipad1 is equal to ipad3");
-//        }
-//        else
-//        {
-//            System.out.println("INCORRECT: ipad1 should be equal to ipad3");
-//        }
-//        System.out.println();
+        final IPod ipod1;
+        final IPod ipod2;
+        final IPod ipod3;
+        ipod1 = new IPod(300,
+                         80.0); // 300 songs, max volume 80.0 dB
+        ipod2 = new IPod(400,
+                         85.0); // 400 songs, max volume 85.0 dB
+        ipod3 = new IPod(300,
+                         70.0); // 300 songs, max volume 70.0 dB
+
+        // Test equality and inequality for IPod
+        System.out.println("IPod Equality Test:");
+        if(!ipod1.equals(ipod2))
+        {
+            System.out.println("CORRECT: ipod1 is not equal to ipod2");
+        }
+        else
+        {
+            System.out.println("INCORRECT: ipod1 should not be equal to ipod2");
+        }
+        if(ipod1.equals(ipod3))
+        {
+            System.out.println("CORRECT: ipod1 is equal to ipod3");
+        }
+        else
+        {
+            System.out.println("INCORRECT: ipod1 should be equal to ipod3");
+        }
+        System.out.println();
+
+        // Create IPad objects
+        final IPad ipad1;
+        final IPad ipad2;
+        final IPad ipad3;
+        ipad1 = new IPad(true,
+                         "iPadOS 15"); // Has case, OS version iPadOS 15
+        ipad2 = new IPad(false,
+                         "iPadOS 14"); // No case, OS version iPadOS 14
+        ipad3 = new IPad(true,
+                         "iPadOS 15"); // Has case, OS version iPadOS 15
+
+        // Test equality and inequality for IPad
+        System.out.println("IPad Equality Test:");
+        if(!ipad1.equals(ipad2))
+        {
+            System.out.println("CORRECT: ipad1 is not equal to ipad2");
+        }
+        else
+        {
+            System.out.println("INCORRECT: ipad1 should not be equal to ipad2");
+        }
+        if(ipad1.equals(ipad3))
+        {
+            System.out.println("CORRECT: ipad1 is equal to ipad3");
+        }
+        else
+        {
+            System.out.println("INCORRECT: ipad1 should be equal to ipad3");
+        }
+        System.out.println();
 
         // Create IPhone objects
         final IPhone iphone1;

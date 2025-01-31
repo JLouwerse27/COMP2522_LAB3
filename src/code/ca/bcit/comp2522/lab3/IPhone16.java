@@ -123,7 +123,7 @@ final class IPhone16
         else
         {
             return (obj == this ||
-                    (((IPhone) obj).getPlanRemainingMinutes() == this.getPlanRemainingMinutes()
+                    ((super.equals(obj))
                      && ((IPhone16) obj).hasHighResCamera()) == this.hasHighResCamera());
         }
     }

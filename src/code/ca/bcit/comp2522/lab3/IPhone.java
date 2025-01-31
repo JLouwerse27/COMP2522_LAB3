@@ -10,6 +10,7 @@ package ca.bcit.comp2522.lab3;
 class IPhone extends IDevice
 {
     private static final int MIN_PLAN_REMAINING_MINUTES = 0;
+    private static final double PLAN_TOLERANCE = 0.0000000001;
 
     private       double planRemainingMinutes;
     private final String carrier;
@@ -132,7 +133,7 @@ class IPhone extends IDevice
         else
         {
             return (obj == this ||
-                    ((IPhone) obj).getPlanRemainingMinutes() == this.getPlanRemainingMinutes());
+                    ((IPhone) obj).getPlanRemainingMinutes() - this.getPlanRemainingMinutes() < PLAN_TOLERANCE);
         }
     }
 

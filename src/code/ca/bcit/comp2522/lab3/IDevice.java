@@ -10,6 +10,7 @@ package ca.bcit.comp2522.lab3;
  */
 abstract class IDevice
 {
+    private static final int HASH_CONSTANT = 1;
 
     private final String purpose;
 
@@ -99,6 +100,6 @@ abstract class IDevice
     @Override
     public int hashCode()
     {
-        return 0;
+            return HASH_CONSTANT;
     }
 }
